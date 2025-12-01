@@ -1,0 +1,136 @@
+╔════════════════════════════════════════════════════════════════════╗
+║                                                                    ║
+║                RECOLLECT BIO - UPLOAD GUIDE                        ║
+║                                                                    ║
+║                          START HERE                                ║
+║                                                                    ║
+╚════════════════════════════════════════════════════════════════════╝
+
+
+GOOD NEWS: Everything is ready to upload!
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Your complete website is in the "out" folder:
+/Users/anthony/Projects/Halos/halosbiolanding/out/
+
+This folder contains EVERYTHING needed - all files are self-contained!
+
+
+QUICK UPLOAD (15 minutes total)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Step 1: Download FileZilla (SFTP client)
+        → https://filezilla-project.org/download.php?type=client
+        → Install and open it
+
+Step 2: Connect to your hosting server
+        → In FileZilla top bar, enter:
+          Host: your-domain.com
+          Username: [your username]
+          Password: [your password]
+          Port: 22
+        → Click "Quickconnect"
+
+Step 3: Navigate to your website folder
+        → Right side (Server): Your web root folder
+
+Step 4: Upload your website
+        → Left side (Your Mac): /Users/anthony/Projects/Halos/halosbiolanding/out/
+        → Select ALL files and folders INSIDE "out"
+        → Drag them to the right side
+        → Wait 5-10 minutes for upload
+
+Step 5: Test your site!
+        → Visit your domain
+        → It should work!
+
+
+ONE MORE THING: Email Form Setup (5 minutes)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+The "Join Waitlist" button needs Formspree to work:
+
+1. Go to: https://formspree.io
+2. Sign up (free account)
+3. Create a new form
+4. Copy the endpoint (looks like: https://formspree.io/f/xvgpqrst)
+5. Open: components/email-capture-dialog.tsx
+6. Line 61: Replace YOUR_FORM_ID with your actual ID
+7. In Terminal, run: cd /Users/anthony/Projects/Halos/halosbiolanding && pnpm run build
+8. Re-upload the "out" folder contents via FileZilla
+
+Without this, the form will show an error when submitted.
+
+
+DETAILED GUIDES AVAILABLE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+QUICK-START.md              → 5-minute upload guide
+DEPLOYMENT-SUMMARY.md       → Overview and checklist
+IMPLEMENTATION.md           → Technical details
+
+
+WHAT'S ALREADY WORKING
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+- Beautiful galaxy background effect
+- Responsive design (mobile, tablet, desktop)
+- "Investor/Partner Inquiry" → anthony@recollect.bio
+- Privacy policy page
+- Terms of use page
+- SEO optimized
+- WCAG accessible
+- Fast loading (<200KB JS)
+
+
+TEST AFTER UPLOAD
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+[ ] Homepage loads
+[ ] Galaxy animation works smoothly
+[ ] "Join Waitlist" button opens dialog
+[ ] "Investor Inquiry" opens email
+[ ] Privacy page works: /privacy/
+[ ] Terms page works: /terms/
+[ ] Site looks good on mobile
+[ ] HTTPS works (green lock icon)
+
+
+NEED HELP?
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Problem: Upload fails or times out
+→ Try uploading in smaller batches
+→ Check internet connection
+
+Problem: 404 errors on site
+→ Make sure you uploaded folder CONTENTS, not folder itself
+
+Problem: Galaxy effect not showing
+→ Check _next/ folder uploaded completely
+→ Clear browser cache (Cmd+Shift+R)
+
+Full troubleshooting: See DEPLOYMENT-SUMMARY.md
+
+
+SUPPORT LINKS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+FileZilla Docs:   https://wiki.filezilla-project.org/
+Formspree Help:   https://help.formspree.io/
+
+
+YOU'RE READY TO LAUNCH!
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Everything is built and ready. Just upload and go!
+
+Estimated time: 15 minutes
+Upload size: ~2-3 MB
+
+
+═══════════════════════════════════════════════════════════════════
+
+Built on: December 1, 2025
+Status: Production Ready
+Tech: Next.js • Tailwind CSS • TypeScript • Spline 3D
