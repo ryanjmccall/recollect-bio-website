@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
       allow: '/',
       disallow: '/api/',
     },
-    sitemap: 'https://recollectbio.com/sitemap.xml',
+    sitemap: 'https://recollect.bio/sitemap.xml',
   }
 }

@@ -85,8 +85,8 @@ export default function TermsPage() {
             <h2 className="text-2xl font-semibold text-white">Contact</h2>
             <p>
               For questions about these Terms of Use, contact:{" "}
-              <a href="mailto:legal@recollectbio.com" className="text-neutral-100 underline">
-                legal@recollectbio.com
+              <a href="mailto:legal@recollect.bio" className="text-neutral-100 underline">
+                legal@recollect.bio
               </a>
             </p>
           </section>

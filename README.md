@@ -161,4 +161,4 @@ Copyright © 2025 Recollect Bio. All rights reserved.
 
 ## Support
 
-For questions or issues, contact: [contact@recollectbio.com](mailto:contact@recollectbio.com)
+For questions or issues, contact: [contact@recollect.bio](mailto:contact@recollect.bio)

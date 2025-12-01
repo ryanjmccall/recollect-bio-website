@@ -251,7 +251,7 @@ All copy carefully avoids:
 For questions or issues with this implementation:
 - Check the main `README.md` for setup instructions
 - Review this document for architectural decisions
-- Contact: [contact@recollectbio.com](mailto:contact@recollectbio.com)
+- Contact: [contact@recollect.bio](mailto:contact@recollect.bio)
 
 ---
 

@@ -1,7 +1,7 @@
 import { MetadataRoute } from 'next'
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://recollectbio.com'
+  const baseUrl = 'https://recollect.bio'
 
   return [
     {

@@ -76,8 +76,8 @@ export default function PrivacyPage() {
             <h2 className="text-2xl font-semibold text-white">Contact Us</h2>
             <p>
               If you have questions about this Privacy Policy, please contact us at:{" "}
-              <a href="mailto:privacy@recollectbio.com" className="text-neutral-100 underline">
-                privacy@recollectbio.com
+              <a href="mailto:privacy@recollect.bio" className="text-neutral-100 underline">
+                privacy@recollect.bio
               </a>
             </p>
           </section>

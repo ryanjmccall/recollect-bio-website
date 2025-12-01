@@ -146,7 +146,7 @@ export default function Home() {
               <a href="/terms" className="hover:text-neutral-300 transition-colors">
                 Terms of Use
               </a>
-              <a href="mailto:contact@recollectbio.com" className="hover:text-neutral-300 transition-colors">
+              <a href="mailto:contact@recollect.bio" className="hover:text-neutral-300 transition-colors">
                 Contact
               </a>
             </nav>
